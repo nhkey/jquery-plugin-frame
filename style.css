@@ -1,0 +1,31 @@
+#frame {
+    border: green solid 1px;
+    display: none;
+    position: absolute;
+}
+
+.div {
+    border: black solid 1px;
+    width: 800px;
+    height: 500px;
+}
+
+.item {
+    position: absolute;
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+}
+
+#i1 {
+    top: 15px;
+    left: 40px;
+}
+#i2 {
+    top: 167px;
+    left: 400px;
+}
+#i3 {
+    top: 53px;
+    left: 10px;
+}

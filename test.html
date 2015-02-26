@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="jquery-frame-plugin.js"></script>
+</head>
+<body>
+<div class="div">
+    <div class="item" id="i1"></div>
+    <div class="item" id="i2"></div>
+    <div class="item" id="i3"></div>
+</div>
+<script>
+    $(function() {
+        $('.div').addFrame({
+                'frameId': 'frame',
+                'callbackFunction': function(all, sel) {
+                    $.each(all, function(k, v){ v.css('border','1px solid red'); });
+                    $.each(sel, function(k, v){ v.css('border','2px solid blue'); });
+                }
+            });
+    });
+</script>
+
+</body>
+</html>

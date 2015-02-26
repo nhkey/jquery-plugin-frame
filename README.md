@@ -1,2 +1,3 @@
-# jquery-plugin-frame
-jquery plugin frame
+# JQuary-плагин рамки и выделения.
+
+TODO: description.
